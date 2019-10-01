@@ -8,6 +8,7 @@
     
       letters.each do |char| 
       reversed.unshift(char)
+    end 
    end 
    
    reversed.join("")
