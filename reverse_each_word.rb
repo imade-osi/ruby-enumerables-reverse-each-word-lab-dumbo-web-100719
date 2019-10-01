@@ -4,12 +4,9 @@
    reversed = []
    
    words.each do |word| 
-    letters = word.split("")
-    
-      letters.each do |char| 
-      reversed.unshift(char)
+      reversed.push(word.reverse)
     end 
    end 
    
-   reversed.join("")
+   reversed.join(" ")
  end 
