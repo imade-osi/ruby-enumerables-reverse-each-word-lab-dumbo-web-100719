@@ -5,7 +5,6 @@
    
    words.each do |word| 
       reversed.push(word.reverse)
-    end 
    end 
    
    reversed.join(" ")
