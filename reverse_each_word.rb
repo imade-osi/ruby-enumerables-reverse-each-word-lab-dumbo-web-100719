@@ -3,7 +3,6 @@
    words = string.split(" ")
    
    words.collect{ |word| word.reverse}
-   end 
    
    reversed.join(" ")
  end 
