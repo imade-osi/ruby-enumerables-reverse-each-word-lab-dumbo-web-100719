@@ -4,5 +4,5 @@
    
    words.collect { |word| word.reverse}
    
-   reversed.join(" ")
+   words.join(" ")
  end 
