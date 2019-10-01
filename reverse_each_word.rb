@@ -1,10 +1,13 @@
  def reverse_each_word(string)
    
-   letters = string.split("")
+   words = string.split(" ")
    reversed = []
    
-   letters.each do |ele| 
-    reversed.unshift(ele)
+   words.each do |word| 
+    letters = word.split("")
+    
+      letters.each do |char| 
+      reversed.unshift(char)
    end 
    
    reversed.join("")
