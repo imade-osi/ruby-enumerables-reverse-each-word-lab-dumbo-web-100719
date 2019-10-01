@@ -7,4 +7,5 @@
     reversed.unshift(ele)
    end 
    
+   reversed.join("")
  end 
