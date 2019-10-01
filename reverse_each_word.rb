@@ -2,7 +2,7 @@
    
    words = string.split(" ")
    
-   words.collect { |word| word.reverse}
+   new_word = words.collect { |word| word.reverse}
    
-   words.join(" ")
+   new_word.join(" ")
  end 
